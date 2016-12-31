@@ -1,2 +1,2 @@
-# System.Memory.Portable
-An experiment to create a portable NuGet package from System.Memory sources
+# ImageSharp.Early.SystemMemory44Beta
+An experiment to create a portable NuGet packages for Span from corefx sources
