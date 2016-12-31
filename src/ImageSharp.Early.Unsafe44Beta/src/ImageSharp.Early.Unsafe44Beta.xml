@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>System.Runtime.CompilerServices.Unsafe</name>
+        <name>ImageSharp.Early.Unsafe44Beta</name>
     </assembly>
     <members>
-        <member name="T:System.Runtime.CompilerServices.Unsafe">
+        <member name="T:ImageSharp.Early.Unsafe44Beta">
             <summary>
             Contains generic, low-level functionality for manipulating pointers.
             </summary>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Read``1(System.Void*)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Read``1(System.Void*)">
             <summary>
             Reads a value of type <typeparamref name="T"/> from the given location.
             </summary>
@@ -17,7 +17,7 @@
             <param name="source">The location to read from.</param>
             <returns>An object of type <typeparamref name="T"/> read from the given location.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Write``1(System.Void*,``0)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Write``1(System.Void*,``0)">
             <summary>
             Writes a value of type <typeparamref name="T"/> to the given location.
             </summary>
@@ -25,7 +25,7 @@
             <param name="destination">The location to write to.</param>
             <param name="value">The value to write.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Copy``1(System.Void*,``0@)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Copy``1(System.Void*,``0@)">
             <summary>
             Copies a value of type <typeparamref name="T"/> to the given location.
             </summary>
@@ -33,7 +33,7 @@
             <param name="destination">The location to copy to.</param>
             <param name="source">A reference to the value to copy.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Copy``1(``0@,System.Void*)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Copy``1(``0@,System.Void*)">
             <summary>
             Copies a value of type <typeparamref name="T"/> to the given location.
             </summary>
@@ -41,7 +41,7 @@
             <param name="destination">The location to copy to.</param>
             <param name="source">A pointer to the value to copy.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.AsPointer``1(``0@)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.AsPointer``1(``0@)">
             <summary>
             Returns a pointer to the given by-ref parameter.
             </summary>
@@ -49,14 +49,14 @@
             <param name="value">The object whose pointer is obtained.</param>
             <returns>A pointer to the given value.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.SizeOf``1">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.SizeOf``1">
             <summary>
             Returns the size of an object of the given type parameter.
             </summary>
             <typeparam name="T">The type of object whose size is retrieved.</typeparam>
             <returns>The size of an object of type <typeparamref name="T"/>.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.As``1(System.Object)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.As``1(System.Object)">
             <summary>
             Casts the given object to the specified type.
             </summary>
@@ -64,7 +64,7 @@
             <param name="o">The object to cast.</param>
             <returns>The original object, casted to the given type.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.AsRef``1(System.Void*)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.AsRef``1(System.Void*)">
             <summary>
             Reinterprets the given location as a reference to a value of type <typeparamref name="T"/>.
             </summary>
@@ -72,7 +72,7 @@
             <param name="source">The location of the value to reference.</param>
             <returns>A reference to a value of type <typeparamref name="T"/>.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.As``2(``0@)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.As``2(``0@)">
             <summary>
             Reinterprets the given reference as a reference to a value of type <typeparamref name="TTo"/>.
             </summary>
@@ -81,7 +81,7 @@
             <param name="source">The reference to reinterpret.</param>
             <returns>A reference to a value of type <typeparamref name="TTo"/>.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Add``1(``0@,System.Int32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Add``1(``0@,System.Int32)">
             <summary>
             Adds an element offset to the given reference.
             </summary>
@@ -90,7 +90,7 @@
             <param name="elementOffset">The offset to add.</param>
             <returns>A new reference that reflects the addition of offset to pointer.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Add``1(``0@,System.IntPtr)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Add``1(``0@,System.IntPtr)">
             <summary>
             Adds an element offset to the given reference.
             </summary>
@@ -99,7 +99,7 @@
             <param name="elementOffset">The offset to add.</param>
             <returns>A new reference that reflects the addition of offset to pointer.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.AddByteOffset``1(``0@,System.IntPtr)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.AddByteOffset``1(``0@,System.IntPtr)">
             <summary>
             Adds a byte offset to the given reference.
             </summary>
@@ -108,7 +108,7 @@
             <param name="byteOffset">The offset to add.</param>
             <returns>A new reference that reflects the addition of byte offset to pointer.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Subtract``1(``0@,System.Int32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Subtract``1(``0@,System.Int32)">
             <summary>
             Subtracts an element offset from the given reference.
             </summary>
@@ -117,7 +117,7 @@
             <param name="elementOffset">The offset to subtract.</param>
             <returns>A new reference that reflects the subraction of offset from pointer.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.Subtract``1(``0@,System.IntPtr)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.Subtract``1(``0@,System.IntPtr)">
             <summary>
             Subtracts an element offset from the given reference.
             </summary>
@@ -126,7 +126,7 @@
             <param name="elementOffset">The offset to subtract.</param>
             <returns>A new reference that reflects the subraction of offset from pointer.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.SubtractByteOffset``1(``0@,System.IntPtr)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.SubtractByteOffset``1(``0@,System.IntPtr)">
             <summary>
             Subtracts a byte offset from the given reference.
             </summary>
@@ -135,7 +135,7 @@
             <param name="bytesOffset">The offset to subtract.</param>
             <returns>A new reference that reflects the subraction of byte offset from pointer.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.ByteOffset``1(``0@,``0@)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.ByteOffset``1(``0@,``0@)">
             <summary>
             Determines the byte offset from origin to target from the given references.
             </summary>
@@ -144,7 +144,7 @@
             <param name="target">The reference to target.</param>
             <returns>Byte offset from origin to target i.e. <paramref name="target"/> - <paramref name="origin"/>.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.AreSame``1(``0@,``0@)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.AreSame``1(``0@,``0@)">
             <summary>
             Determines whether the specified references point to the same location.
             </summary>
@@ -152,7 +152,7 @@
             <param name="right">The second reference to compare.</param>
             <returns><c>true</c> if <paramref name="left"/> and <paramref name="right"/> point to the same location; otherwise <c>false</c>.</returns>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.CopyBlock(System.Void*,System.Void*,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.CopyBlock(System.Void*,System.Void*,System.UInt32)">
             <summary>
             Copies bytes from the source address to the destination address.
             </summary>
@@ -160,7 +160,7 @@
             <param name="source">The source address to copy from.</param>
             <param name="byteCount">The number of bytes to copy.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.CopyBlock(System.Byte@,System.Byte@,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.CopyBlock(System.Byte@,System.Byte@,System.UInt32)">
             <summary>
             Copies bytes from the source address to the destination address.
             </summary>
@@ -168,7 +168,7 @@
             <param name="source">The source address to copy from.</param>
             <param name="byteCount">The number of bytes to copy.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.CopyBlockUnaligned(System.Void*,System.Void*,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.CopyBlockUnaligned(System.Void*,System.Void*,System.UInt32)">
             <summary>
             Copies bytes from the source address to the destination address 
             without assuming architecture dependent alignment of the addresses.
@@ -177,7 +177,7 @@
             <param name="source">The source address to copy from.</param>
             <param name="byteCount">The number of bytes to copy.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.CopyBlockUnaligned(System.Byte@,System.Byte@,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.CopyBlockUnaligned(System.Byte@,System.Byte@,System.UInt32)">
             <summary>
             Copies bytes from the source address to the destination address 
             without assuming architecture dependent alignment of the addresses.
@@ -186,7 +186,7 @@
             <param name="source">The source address to copy from.</param>
             <param name="byteCount">The number of bytes to copy.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.InitBlock(System.Void*,System.Byte,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.InitBlock(System.Void*,System.Byte,System.UInt32)">
             <summary>
             Initializes a block of memory at the given location with a given initial value.
             </summary>
@@ -194,7 +194,7 @@
             <param name="value">The value to initialize the block to.</param>
             <param name="byteCount">The number of bytes to initialize.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.InitBlock(System.Byte@,System.Byte,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.InitBlock(System.Byte@,System.Byte,System.UInt32)">
             <summary>
             Initializes a block of memory at the given location with a given initial value.
             </summary>
@@ -202,7 +202,7 @@
             <param name="value">The value to initialize the block to.</param>
             <param name="byteCount">The number of bytes to initialize.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.InitBlockUnaligned(System.Void*,System.Byte,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.InitBlockUnaligned(System.Void*,System.Byte,System.UInt32)">
             <summary>
             Initializes a block of memory at the given location with a given initial value 
             without assuming architecture dependent alignment of the address.
@@ -211,7 +211,7 @@
             <param name="value">The value to initialize the block to.</param>
             <param name="byteCount">The number of bytes to initialize.</param>
         </member>
-        <member name="M:System.Runtime.CompilerServices.Unsafe.InitBlockUnaligned(System.Byte@,System.Byte,System.UInt32)">
+        <member name="M:ImageSharp.Early.Unsafe44Beta.InitBlockUnaligned(System.Byte@,System.Byte,System.UInt32)">
             <summary>
             Initializes a block of memory at the given location with a given initial value 
             without assuming architecture dependent alignment of the address.

@@ -4,7 +4,7 @@
   .publickeytoken = (B0 3F 5F 7F 11 D5 0A 3A )                         // .?_....:
   .ver 4:0:0:0
 }
-.assembly System.Runtime.CompilerServices.Unsafe
+.assembly ImageSharp.Early.Unsafe44Beta
 {
   .custom instance void [System.Runtime]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
   .custom instance void [System.Runtime]System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor() = ( 01 00 01 00 54 02 16 57 72 61 70 4E 6F 6E 45 78   // ....T..WrapNonEx
@@ -43,7 +43,7 @@
   .hash algorithm 0x00008004
   .ver 4:0:3:0
 }
-.module System.Runtime.CompilerServices.Unsafe.dll
+.module ImageSharp.Early.Unsafe44Beta.dll
 // MVID: {1E97D84A-565B-49C5-B60A-F31A1A4ACE13}
 .imagebase 0x00400000
 .file alignment 0x00000200
@@ -55,7 +55,7 @@
 
 // =============== CLASS MEMBERS DECLARATION ===================
 
-.class public abstract auto ansi sealed beforefieldinit System.Runtime.CompilerServices.Unsafe
+.class public abstract auto ansi sealed beforefieldinit ImageSharp.Early.Unsafe44Beta
        extends [System.Runtime]System.Object
 {
   .method public hidebysig static !!T Read<T>(void* source) cil managed aggressiveinlining
@@ -329,7 +329,7 @@
         ret 
   } // end of method Unsafe::AreSame
 
-} // end of class System.Runtime.CompilerServices.Unsafe
+} // end of class ImageSharp.Early.Unsafe44Beta
 
 .class private auto ansi sealed beforefieldinit System.Runtime.Versioning.NonVersionableAttribute
        extends [System.Runtime]System.Attribute

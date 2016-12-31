@@ -1251,10 +1251,10 @@
     ]
   },
   {
-    "Name": "System.Runtime.CompilerServices.Unsafe",
+    "Name": "ImageSharp.Early.Unsafe44Beta",
     "Description": "Provides the System.Runtime.CompilerServices.Unsafe class, which provides generic, low-level functionality for manipulating pointers.",
     "CommonTypes": [
-      "System.Runtime.CompilerServices.Unsafe"
+      "ImageSharp.Early.Unsafe44Beta"
     ]
   },
   {

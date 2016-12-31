@@ -2135,7 +2135,7 @@
         "4.2.0.0": "4.4.0"
       }
     },
-    "System.Runtime.CompilerServices.Unsafe": {
+    "ImageSharp.Early.Unsafe44Beta": {
       "StableVersions": [
         "4.0.0",
         "4.3.0"
